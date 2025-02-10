@@ -40,13 +40,16 @@ public class LessonTwoHomework {
         int owner = bank / 2;
         int remain = bank - owner;
         int cap = remain / 2;
-        remain = remain - cap;
-        int dolya = remain / (size + 1);
+        remain -= cap;
+        int dolya = remain / ( size + 1 );
         cap += dolya;
+        remain -=  dolya * ( size + 1 );
         System.out.println("Владелец получает " + owner + " пиастров");
-        System.out.println("Джек Воробей получает " + cap + " пиастров");
+        System.out.println("Капитан получает " + cap + " пиастров");
         System.out.println("Член команды получает " + dolya + " пиастров");
-        int unit = cap + remain + size * dolya;
+        System.out.println("Остаток " + remain + " пиастров");
+        System.out.println("Джек Воробей получает " + (cap + owner) + " пиастров");
+        int unit = owner + cap + remain + size * dolya;
         if (unit - bank == 0) {
             System.out.println("Программа считает верно");
         }else{
