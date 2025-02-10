@@ -37,12 +37,16 @@ public class LessonTwoHomework {
         int bank = (int) (Math.random()*5000);
         int size = (int) (Math.random()*20);
         System.out.println("Пиратов на корабле " + size + ". Добыча " + bank + " пиастров");
-        int cap = bank / 2;
-        int dolya = (bank - cap) / (size + 1);
+        int owner = bank / 2;
+        int remain = bank - owner;
+        int cap = remain / 2;
+        remain = remain - cap;
+        int dolya = remain / (size + 1);
         cap += dolya;
+        System.out.println("Владелец получает " + owner + " пиастров");
         System.out.println("Джек Воробей получает " + cap + " пиастров");
         System.out.println("Член команды получает " + dolya + " пиастров");
-        int unit = cap + size * dolya;
+        int unit = cap + remain + size * dolya;
         if (unit - bank == 0) {
             System.out.println("Программа считает верно");
         }else{
