@@ -16,6 +16,16 @@ public class LessonTwoHomework {
             System.out.println("a / b = " + (a / b));
         }
         System.out.println("a % b = " + (a % b));
+        if (a % 2 == 0){
+            System.out.println("a - четное");
+        }else{
+            System.out.println("a - не четное");
+        }
+        if (b % 2 == 0){
+            System.out.println("b - четное");
+        }else{
+            System.out.println("b - не четное");
+        }
         //Задание 2
         System.out.println("\nЗадание 2");
         int tmp = a;
