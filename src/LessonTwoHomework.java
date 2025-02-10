@@ -34,7 +34,7 @@ public class LessonTwoHomework {
         System.out.println("a = " + a + ", b = " + b);
         //Задание 3
         System.out.println("\nЗадание 3");
-        int bank = (int) (Math.random()*1000);
+        int bank = (int) (Math.random()*5000);
         int size = (int) (Math.random()*20);
         System.out.println("Пиратов на корабле " + size + ". Добыча " + bank + " пиастров");
         int cap = bank / 2;
