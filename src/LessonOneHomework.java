@@ -1,10 +1,16 @@
 public class LessonOneHomework {
     public static void main(String[] args) {
-        //Task1
+        //Задание 1
+        //Написать программу которая будет печатать/выводить следующий текст:
+        //3
+        //2
+        //1
+        //Поехали!!!
+
         System.out.println("Задача 1\n");
         for (int i=3;i>=1;i--) System.out.println(i);
         System.out.println("Поехали!!!");
-        //Task2
+        //Задание 2
         System.out.println("\nЗадача 2\n");
         System.out.println("_____8888_______________________________");
         System.out.println("____8888888_____________________________");
@@ -37,7 +43,9 @@ public class LessonOneHomework {
         System.out.println("____88888888_____1___88888888___________");
         System.out.println("_____888888___________888888____________");
         System.out.println("_______________________8888_____________");
-        //Task3
+        //Задание 3
+        //Экстра задача
+        //Вывести/напечатать смайлик (не :), а настоящий смайлик одним символом).
         System.out.println("\nЗадача 3\n");
         System.out.println("\uD83D\uDE0A");
     }
