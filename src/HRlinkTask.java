@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class HRlinkTask {
     public static void main(String[] args) {
 
@@ -17,10 +16,9 @@ public class HRlinkTask {
         //завершиться. Гарантируется, что входные данные корректны и
         //игра ещё не завершена.
 
-        Scanner scan = new Scanner(System.in);
-        int x = scan.nextInt();
-        int y = scan.nextInt();
-        int z = scan.nextInt();
+        int x = 19;
+        int y = 20;
+        int z = 21;
         int gameCount;
         if (y > x) {
             int tmp = y;
