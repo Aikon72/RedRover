@@ -21,10 +21,9 @@ public class HRlinkTask {
         int x = scan.nextInt();
         int y = scan.nextInt();
         int z = scan.nextInt();
-        int tmp;
         int gameCount;
         if (y > x) {
-            tmp = y;
+            int tmp = y;
             y = x;
             x = tmp;
         }
