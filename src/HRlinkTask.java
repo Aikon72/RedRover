@@ -31,14 +31,14 @@ public class HRlinkTask {
             } else {
                 gameCount = 2 - x + y;
             }
-            } else if (z - x >= 2) {
-                gameCount = z - x;
-            } else if (x - y == 0) {
-                    gameCount = 2;
-                } else {
-                    gameCount = 1;
-                }
-        System.out.println(gameCount);
+        } else if (z - x >= 2) {
+            gameCount = z - x;
+        } else if (x - y == 0) {
+            gameCount = 2;
+        } else {
+            gameCount = 1;
         }
+        System.out.println(gameCount);
     }
+}
 
