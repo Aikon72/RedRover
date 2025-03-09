@@ -1,4 +1,4 @@
-public class LessonThreeHomework {
+public class RedroverThree {
     public static void main(String[] args) {
         /* Задача №1
         Необходимо создать две целочисленные переменные (a, b), присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:

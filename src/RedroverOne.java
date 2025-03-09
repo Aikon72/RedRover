@@ -1,4 +1,4 @@
-public class LessonOneHomework {
+public class RedroverOne {
     public static void main(String[] args) {
         //Задание 1
         //Написать программу которая будет печатать/выводить следующий текст:

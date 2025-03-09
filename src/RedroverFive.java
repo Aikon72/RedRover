@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class HomeworkFive {
+public class RedroverFive {
     public static void main(String[] args) {
         /* Задача №1
         Дан массив:
