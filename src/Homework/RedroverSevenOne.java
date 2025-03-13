@@ -1,3 +1,5 @@
+package Homework;
+
 public class RedroverSevenOne {
     public static void main(String[] args){
         //Задача №1

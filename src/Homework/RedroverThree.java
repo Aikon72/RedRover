@@ -1,3 +1,5 @@
+package Homework;
+
 public class RedroverThree {
     public static void main(String[] args) {
         /* Задача №1

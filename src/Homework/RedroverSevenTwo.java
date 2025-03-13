@@ -1,3 +1,5 @@
+package Homework;
+
 public class RedroverSevenTwo {
     public static void main(String[] args) {
 //Вывести следующие строки с соответствующим форматированием (как пирамиды):
