@@ -1,3 +1,5 @@
+package CodeWars;
+
 public class HumanReadableDurationFormat {
     public static void main(String[] args) {
         //Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.
