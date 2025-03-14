@@ -110,4 +110,31 @@ public class RedroverSix {
     public static void printTask(int x){
             System.out.println("\nЗадание №" + x);
     }
+
+    public static class RedroverEight {
+        public static void main(String[] args) {
+            //Задача №1
+            //Создать класс Homework.RedroverSix.Month с полями: имя месяца, количеством дней и количеством рабочих дней.
+            // Создать класс Homework.RedroverThree.MonthUtils который бы хранил подготовленные месяцы или их массивы для использования (объекты класса Homework.RedroverSix.Month).
+
+
+            //
+            //Задача №2
+            //
+            //Необходимо создать класс Employee с полями: имя, возраст, пол и ЗП в день. Класс должен иметь метод - getSalary(Homework.RedroverSix.Month[] monthArray), метод возвращает зарплату за те месяцы которые были переданы в качестве аргумента.
+            //
+            //
+            //Задача №3
+            //
+            //Необходимо создать класс Manager с полями: имя, возраст, пол, ЗП в день и количество подчиненных. Класс должен иметь метод - getSalary(Homework.RedroverSix.Month[] monthArray), метод возвращает зарплату за те месяцы которые были переданы в качестве аргумента.
+            //К рассчитанной ЗП должно прибавляться по 1% за каждого подчиненного.
+
+        }
     }
+
+    public static class Month {
+        String month;
+        int days;
+        int workingDays;
+    }
+}
