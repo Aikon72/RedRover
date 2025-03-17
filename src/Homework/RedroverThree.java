@@ -62,12 +62,4 @@ public class RedroverThree {
 
     }
 
-    public static class MonthUtils {
-        public static void main(String[] args) {
-            RedroverSix.Month january = new fillMonth;
-
-
-        }
-        public static RedroverSix.Month fillMonth()
-    }
 }
