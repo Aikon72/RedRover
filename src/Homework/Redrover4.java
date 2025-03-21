@@ -1,6 +1,6 @@
 package Homework;
 
-public class RedroverFour {
+public class Redrover4 {
     public static void main(String[] args) {
         /* Задача №1
         Необходимо вывести числа от 0 до 15. */

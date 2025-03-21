@@ -1,6 +1,6 @@
 package Homework;
 
-public class RedroverOne {
+public class Redrover1 {
     public static void main(String[] args) {
         //Задание 1
         //Написать программу которая будет печатать/выводить следующий текст:

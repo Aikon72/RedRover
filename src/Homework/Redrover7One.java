@@ -1,6 +1,6 @@
 package Homework;
 
-public class RedroverSevenOne {
+public class Redrover7One {
     public static void main(String[] args){
         //Задача №1
         //Дан массив:

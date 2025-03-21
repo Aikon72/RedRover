@@ -1,6 +1,6 @@
 package Homework;
 
-public class RedroverSevenTwo {
+public class Redrover7Two {
     public static void main(String[] args) {
 //Вывести следующие строки с соответствующим форматированием (как пирамиды):
 //Задача №1

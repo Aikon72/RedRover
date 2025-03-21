@@ -17,7 +17,7 @@ public class MonthUtils {
         april.days = 30;
         april.workingDays = 22;
         Month may = new Month();
-        january.name = "May";
+        may.name = "May";
         may.days = 31;
         may.workingDays = 18;
         Month june = new Month();
@@ -48,6 +48,6 @@ public class MonthUtils {
         december.name = "December";
         december.days = 31;
         december.workingDays = 22;
-        System.out.println(may.name + may.days + may.workingDays);
+        System.out.println("Вывод Месяца: " + may.name + may.days + may.workingDays);
     }
 }

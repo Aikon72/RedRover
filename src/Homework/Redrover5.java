@@ -2,7 +2,7 @@ package Homework;
 
 import java.util.Arrays;
 
-public class RedroverFive {
+public class Redrover5 {
     public static void main(String[] args) {
         /* Задача №1
         Дан массив:

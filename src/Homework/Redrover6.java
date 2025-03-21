@@ -1,6 +1,6 @@
 package Homework;
 
-public class RedroverSix {
+public class Redrover6 {
     public static void main(String[] args) {
         printTask(1);
         //Дана строка:
