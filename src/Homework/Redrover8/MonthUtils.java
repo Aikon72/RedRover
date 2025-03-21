@@ -50,6 +50,5 @@ public class MonthUtils {
         december.name = "December";
         december.days = 31;
         december.workingDays = 22;
-        System.out.println("Вывод Месяца: " + may.name + may.days + may.workingDays);
     }
 }
