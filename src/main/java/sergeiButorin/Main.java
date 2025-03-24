@@ -1,4 +1,4 @@
-package SergeiButorin;
+package sergeiButorin;
 /*
 Kids drink toddy.
 Teens drink coke.

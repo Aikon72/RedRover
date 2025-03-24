@@ -1,4 +1,4 @@
-package SergeiButorin;
+package sergeiButorin;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

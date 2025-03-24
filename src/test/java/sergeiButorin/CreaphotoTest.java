@@ -1,4 +1,4 @@
-package SergeiButorin;
+package sergeiButorin;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
