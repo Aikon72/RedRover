@@ -1,6 +1,6 @@
 package Homework;
 
-public class Redrover3 {
+public class Redrover3_1 {
     public static void main(String[] args) {
         /* Задача №1
         Необходимо создать две целочисленные переменные (a, b), присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
